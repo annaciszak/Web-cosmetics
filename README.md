@@ -1,2 +1,2 @@
 # web-cosmetics
-[https:/[/github.com/annaciszak/web-cosmetics](https://github.com/annaciszak/web-cosmetics)
+[annaciszak.github.io/web-cosmetics/](annaciszak.github.io/web-cosmetics/)
