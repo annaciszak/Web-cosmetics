@@ -1,0 +1,280 @@
+.contain{
+background: none;
+padding:0px !important;
+/* width: 100%; */
+}
+
+body{    
+    background-image: url("public/thanos-pal-8PWY6aTanhQ-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.section-header>p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    margin:0px;
+    padding:25px 0px;
+
+}
+.navbar-brand>img{
+    width: 80%;
+}
+
+section{
+    padding-bottom: 35px;
+}
+
+#slogan{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.opinion{
+    background-color: #95A5A6 ;
+}
+
+.opinion>.container>div{
+    width: 100%
+}
+.opinion>.container:first-child{
+
+margin-top: 0px !important;
+}
+
+.header-wrap{
+    color: white;
+    font-size: 3.5rem;
+    height: 90vh;
+    overflow: hidden;
+    line-height: 90vh;
+}
+
+.about{
+    background-color:white;
+}
+.about>.container>.row{
+    /* top: 0; bottom: 0; left: 0; right: 0; */
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+.about>.container>.row>div>p{
+    padding:20% 0px;
+}
+
+img{
+    width: 100%;
+}
+
+section.products{
+background-color: rgba(185, 119, 14, 0.6);
+}
+.product>a>img{
+    border-radius: 50%;
+    width:70%;
+    /* max-height: 120px; */
+}
+
+.products>.pr:first-child>.product>a>img:hover{
+    border: 6px solid white;
+    transition: 0.3s;
+}
+
+.products>.pr:nth-child(2)>.product>a>img:hover{
+    border: 6px solid rgb(73, 0, 153);
+    transition: 0.3s;
+}
+
+.products>.pr:last-child>.product>a>img:hover{
+    border: 6px solid rgb(255,152,0);
+    transition: 0.3s;
+}
+
+.product>a>.item{
+    display: inline-block;
+    padding:5px 0px;
+    width: 50%;
+    margin-top: 15px;
+    background-color: transparent !important;
+    color: black;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.product>a>.item:hover{
+    font-weight: 700;}
+main{
+position: absolute;
+}
+.certificates{
+    /* background-color: rgb(34, 153, 84) ; */
+    background-color: rgb(102, 187, 106 );
+}
+
+.certificates>.container>.row>div:first-child>div{
+    height: 100px;
+    width: 100px;
+}   
+.certificates>.container>.row{
+    padding: 15px 0px;
+}
+
+.header-certificates{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.text-certificates{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.quality{
+    background-color: rgba(123,36,28,0.85) ;
+}
+
+.row>div:first-child>.quality-img{
+    background-image: url("public/proba1.jpg");
+    background-size: cover;
+    background-position: 0% 25%;
+    min-height: 30vh;
+    max-height: 400px;
+    margin-top: 30px;
+}
+
+.row>div:nth-child(2)>.quality-img{
+    background-image: url("public/proba2.jpg");
+    background-size: cover;
+    background-position: 0% 25%;
+    min-height: 30vh;
+    max-height: 400px;
+    margin-top: 30px;
+}
+
+.quality-img>span{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-shadow: 2px 2px 5px black;
+    font-size: 1.3em;
+
+}
+
+.quality-img{
+    padding: 15% 0;
+}
+.photo-div{
+margin:0 auto;
+}
+
+.photo{
+    /* border-radius:50%;
+    width: 100px !important;
+    height: 100px;
+    object-fit: cover; */
+    box-sizing: border-box;
+    padding:0px 10px 10px 10px;
+}
+.item{
+    background-color: white;
+    padding:0px;
+    border-radius: 15px;
+}
+
+.card{
+    padding-top: 15px;
+    background-color: transparent;
+    border-radius: 15px 15px 0px 0px !important;
+    border-width: 0px !important;
+    margin-top: 15px;
+}
+
+.card-body{
+    margin:0px 0px 15px 0px;
+    padding:20px 25px !important;
+}
+
+.card-body>p{
+    text-align: justify;
+    text-justify: inter-character;
+}
+
+.name{
+    margin-bottom: 5px;
+}
+.bord{
+    width: 40%;
+    border-top:2px solid black;
+    margin:0 auto;
+}
+
+.owl-nav>button>span{
+font-size: 2rem;
+}
+.owl-nav>button{
+height: 30%;
+width: 5%;
+}
+.contact, footer{
+    background-color: rgba(246, 221, 204, 0.8);
+}
+
+
+.contact-div{
+    float: left;
+    text-align: left;
+}
+
+.media>a>i{
+    margin:0px 10px;
+    color: black;
+}
+
+.media>a>i:hover{
+color:royalblue;
+}
+
+.info>p{
+    display: inline-block;
+}
+
+.info>i{
+    margin:0px 15px;
+}
+
+@media only screen and (max-width: 768px) {
+.header-wrap{
+    font-size: 25px;
+}
+body{
+    background-position: center 90%;
+}
+.navbar-toggler{
+margin:0 auto;
+margin-top: 15px;
+}
+.navbar-brand{
+    margin:0 auto;
+}
+.home-head-wrap{
+height: 80vh;
+}
+
+#circ1, #circ2, #circ3{
+    margin-bottom: 10px;
+}
+}
+
+.footer{
+    font-size: 13px;
+    margin-top:15px;
+
+}
